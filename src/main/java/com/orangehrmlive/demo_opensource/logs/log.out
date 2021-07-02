@@ -1,0 +1,17 @@
+2021-07-01 23:07:478 INFO  BasePage :30 - Launching Chrome Browser 
+2021-07-01 23:07:694 INFO  LoginPage :18 - Enter username to User name : By.xpath: //input[@id='txtUsername']
+2021-07-01 23:07:846 INFO  LoginPage :24 - Enter password : By.xpath: //input[@id='txtPassword']
+2021-07-01 23:07:979 INFO  LoginPage :30 - Click on login button: By.xpath: //input[@id='btnLogin']
+2021-07-01 23:07:449 INFO  DashBoardPage :21 - Get welcome text after login : By.xpath: //a[@id='welcome']
+2021-07-01 23:07:681 INFO  BasePage :30 - Launching Chrome Browser 
+2021-07-01 23:07:807 INFO  LoginPage :18 - Enter username to User name : By.xpath: //input[@id='txtUsername']
+2021-07-01 23:07:964 INFO  LoginPage :24 - Enter password : By.xpath: //input[@id='txtPassword']
+2021-07-01 23:07:145 INFO  LoginPage :30 - Click on login button: By.xpath: //input[@id='btnLogin']
+2021-07-01 23:07:726 INFO  DashBoardPage :21 - Get welcome text after login : By.xpath: //a[@id='welcome']
+2021-07-01 23:07:149 INFO  BasePage :30 - Launching Chrome Browser 
+2021-07-01 23:07:436 INFO  LoginPage :18 - Enter username to User name : By.xpath: //input[@id='txtUsername']
+2021-07-01 23:07:562 INFO  LoginPage :24 - Enter password : By.xpath: //input[@id='txtPassword']
+2021-07-01 23:07:682 INFO  LoginPage :30 - Click on login button: By.xpath: //input[@id='btnLogin']
+2021-07-01 23:07:494 INFO  DashBoardPage :26 - Click on Welcome Text: By.xpath: //a[@id='welcome']
+2021-07-01 23:07:194 INFO  DashBoardPage :32 - Click on Logout button : By.linkText: Logout
+2021-07-01 23:07:826 INFO  HomePage :17 - Get text from Login Panel: By.xpath: //div[@id='logInPanelHeading']

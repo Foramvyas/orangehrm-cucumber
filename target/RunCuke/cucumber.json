@@ -1,0 +1,298 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 6,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 236677500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I am on homepage",
+            "match": {
+              "location": "LoginTest.iAmOnHomepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 7870530500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 9,
+        "name": "User should login and verify the welcome text successfully",
+        "description": "",
+        "id": "login-test;user-should-login-and-verify-the-welcome-text-successfully",
+        "after": [
+          {
+            "result": {
+              "duration": 1360146900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 162336500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I enter username \"Admin\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Admin",
+                  "offset": 18
+                }
+              ],
+              "location": "LoginTest.iEnterUsername(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 176921800,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I enter password \"admin123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "admin123",
+                  "offset": 18
+                }
+              ],
+              "location": "LoginTest.iEnterPassword(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4572869100,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I click on Login button",
+            "match": {
+              "location": "LoginTest.iClickOnLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 62605200,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I should see welcomeText \"Welcome Paul\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Welcome Paul",
+                  "offset": 26
+                }
+              ],
+              "location": "LoginTest.iShouldSeeWelcomeText(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 8,
+            "name": "@Sanity,"
+          },
+          {
+            "line": 8,
+            "name": "@Smoke,"
+          },
+          {
+            "line": 8,
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "line": 6,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 50700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I am on homepage",
+            "match": {
+              "location": "LoginTest.iAmOnHomepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 7272002900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "User should log out successfully and should see the message Login Panel after log out",
+        "description": "",
+        "id": "login-test;user-should-log-out-successfully-and-should-see-the-message-login-panel-after-log-out",
+        "after": [
+          {
+            "result": {
+              "duration": 944967300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 120883500,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I enter username \"Admin\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Admin",
+                  "offset": 18
+                }
+              ],
+              "location": "LoginTest.iEnterUsername(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 120680100,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I enter password \"admin123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "admin123",
+                  "offset": 18
+                }
+              ],
+              "location": "LoginTest.iEnterPassword(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1810483800,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I click on Login button",
+            "match": {
+              "location": "LoginTest.iClickOnLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 696943600,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I click on welcome text",
+            "match": {
+              "location": "LogOutTest.iClickOnWelcomeText()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 628348200,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I click on Logout button",
+            "match": {
+              "location": "LogOutTest.iClickOnLogoutButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 56461800,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I should see text \"LOGIN Panel\" on home page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "LOGIN Panel",
+                  "offset": 19
+                }
+              ],
+              "location": "LogOutTest.iShouldSeeTextOnHomePage(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 15,
+            "name": "@Smoke,"
+          },
+          {
+            "line": 15,
+            "name": "@Regression"
+          }
+        ]
+      }
+    ],
+    "name": "Login Test",
+    "description": "\r\nAs a user I want to use login and log out functionality of OrangeHrm website",
+    "id": "login-test",
+    "keyword": "Feature",
+    "uri": "src/test/java/resources/featurefiles/login.feature"
+  }
+]
